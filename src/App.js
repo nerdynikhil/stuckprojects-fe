@@ -1,22 +1,30 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import ProjectList from './pages/ProjectList';
-import SubmitProject from './pages/SubmitProject';
 import Header from './components/Header';
+import LandingPage from './pages/LandingPage';
+import ProjectsPage from './pages/ProjectsPage';
+import SubmitProjectPage from './pages/SubmitProjectPage';
+import './css/App.css';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/projects" component={ProjectList} />
-        <Route exact path="/submit" component={SubmitProject} />
-        {/* Add more routes for other pages */}
-      </Switch>
+      <div className="container">
+        {/* Vertical Navbar */}
+        <Header />
+
+        {/* Main Content */}
+        <main className="main-content">
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/projects" component={ProjectsPage} />
+            <Route path="/submit" component={SubmitProjectPage} />
+          </Switch>
+        </main>
+      </div>
     </Router>
   );
-}
+};
 
 export default App;

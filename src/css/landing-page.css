@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the landing page height to fill the viewport */
+    height: 100vh;
   }
   
   .content {
@@ -14,8 +14,14 @@
     max-width: 800px;
   }
   
+  .image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin-top: 2rem;
+  }
+  
   .programming-image {
-    max-width: 100%;
-    margin-top: 2rem; /* Add spacing between content and image */
+    max-width: 80%; /* Reduce the size of the SVG by 20% */
   }
   

@@ -3,22 +3,19 @@
 /* Style the navigation bar */
 .navbar {
     display: flex;
-    justify-content: space-around; /* Add space around the navbar items */
-    background-color: transparent;
-    padding: 1rem 0;
+    flex-direction: column; /* Switch to a vertical layout */
+    background-color: #400090; /* Yahoo purple color */
+    height: 100vh; /* Set the height to fill the viewport */
+    width: 250px; /* Adjust the width as per your design */
   }
   
-  /* Style the navigation links */
   .navbar a {
-    color: var(--primary-text-color);
+    color: #ffffff;
     font-size: 1.2rem;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
+    padding: 1rem 2rem;
   }
   
-  /* Add hover effect to links */
   .navbar a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: #ff6f00;

@@ -1,0 +1,27 @@
+/* src/css/App.css */
+
+/* Reset the default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Create a flexbox layout */
+  .container {
+    display: flex;
+  }
+  
+  /* Adjust the width of the vertical navbar */
+  .navbar {
+    flex-basis: 250px; /* Set the width of the navbar */
+    background-color: #400090; /* Yahoo purple color */
+    height: 100vh; /* Set the height to fill the viewport */
+    overflow: auto; /* Add scroll if the content exceeds the height */
+  }
+  
+  /* Create a main content section */
+  .main-content {
+    flex: 1; /* Take up the remaining space */
+    padding: 2rem; /* Add some spacing around the content */
+  }
+  
