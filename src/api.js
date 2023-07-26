@@ -7,12 +7,14 @@ const projects = [
       title: 'My Awesome Project',
       description: 'This is an awesome project that needs some help!',
       tags: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://github.com/username/my-awesome-project', // GitHub link for the project
     },
     {
       id: 2,
       title: 'Cool Web App',
       description: 'Looking for collaborators to build a cool web app!',
       tags: ['React', 'Express', 'PostgreSQL'],
+      link: 'https://github.com/username/cool-web-app', // GitHub link for the project
     },
     // Add more project data here
   ];
