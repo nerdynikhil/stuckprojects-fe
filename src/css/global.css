@@ -1,0 +1,27 @@
+/* src/css/global.css */
+
+/* Set dark theme background and text colors */
+:root {
+    --primary-bg-color: #121212;
+    --secondary-bg-color: #1a1a1a;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #b3b3b3;
+  }
+  
+  body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0; /* Remove default body margin to extend background color */
+  }
+  
+  /* Style links */
+  a {
+    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

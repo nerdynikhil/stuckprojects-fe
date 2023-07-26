@@ -1,6 +1,8 @@
 // Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../css/header.css'; // Create a new header.css file for styling
+
 
 const Header = () => {
   return (

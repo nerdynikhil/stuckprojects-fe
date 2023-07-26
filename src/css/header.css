@@ -1,0 +1,26 @@
+/* src/css/header.css */
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Add space around the navbar items */
+    background-color: transparent;
+    padding: 1rem 0;
+  }
+  
+  /* Style the navigation links */
+  .navbar a {
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add hover effect to links */
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ff6f00;
+  }
+  

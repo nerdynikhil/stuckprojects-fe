@@ -1,30 +1,21 @@
-/* Add some CSS to make it visually appealing */
+/* src/css/landing-page.css */
+
 .landing-page {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the landing page height to fill the viewport */
+  }
+  
+  .content {
     text-align: center;
+    padding: 2rem;
+    max-width: 800px;
   }
   
-  .landing-page h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .landing-page p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
+  .programming-image {
+    max-width: 100%;
+    margin-top: 2rem; /* Add spacing between content and image */
   }
   

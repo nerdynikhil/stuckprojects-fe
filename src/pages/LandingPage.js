@@ -1,18 +1,27 @@
 // LandingPage.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../css/landing-page.css'; // Import the CSS file from the 'css' folder
-
+import '../css/landing-page.css'; // Import the landing-page.css file for styling
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <h1>Welcome to StuckProjects.com!</h1>
-      <p>Are your projects stuck in the limbo of unfinished dreams? Fear not, fellow developers!</p>
-      <p>StuckProjects.com is the quirky wonderland where you can share your incomplete projects with the world and find like-minded developers to get unstuck together.</p>
-      <Link to="/submit" className="btn btn-primary">Share Your Stuck Project Now!</Link>
+      <div className="content">
+        <h1>Welcome to StuckProjects!</h1>
+        <p>
+          Are you stuck with a coding project and need some help to get it
+          moving? Or do you have skills and want to collaborate with others?
+          StuckProjects is the perfect platform for you!
+        </p>
+      </div>
+      <div className="image-container">
+        <img
+          src="/undraw_programming_re_kg9v.svg"
+          alt="Programming Illustration"
+          className="programming-image"
+        />
+      </div>
     </div>
   );
-}
+};
 
 export default LandingPage;
