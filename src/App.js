@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import LandingPage from './pages/LandingPage';
 import ProjectsPage from './pages/ProjectsPage';
-import SubmitProjectPage from './pages/SubmitProjectPage';
+import SubmitProject from './pages/SubmitProject'; // Update the import statement
+
 import './css/App.css';
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route path="/projects" component={ProjectsPage} />
-            <Route path="/submit" component={SubmitProjectPage} />
+            <Route path="/submit" component={SubmitProject} /> {/* Use SubmitProject component */}
           </Switch>
         </main>
       </div>
