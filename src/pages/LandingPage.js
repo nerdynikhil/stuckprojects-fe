@@ -1,6 +1,8 @@
 // LandingPage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../css/landing-page.css'; // Import the CSS file from the 'css' folder
+
 
 const LandingPage = () => {
   return (
