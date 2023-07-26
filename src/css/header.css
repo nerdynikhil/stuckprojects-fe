@@ -3,21 +3,39 @@
 /* Style the navigation bar */
 .navbar {
     display: flex;
-    flex-direction: column; /* Switch to a vertical layout */
+    flex-direction: column;
     background-color: #400090; /* Yahoo purple color */
-    height: 100vh; /* Set the height to fill the viewport */
-    width: 250px; /* Adjust the width as per your design */
+    height: 100vh;
+    width: 250px;
+    align-items: center; /* Center the links horizontally */
+    list-style-type: none; /* Remove bullet point symbols */
+    padding: 0; /* Remove default list padding */
   }
   
+  /* Style the navigation links */
   .navbar a {
     color: #ffffff;
     font-size: 1.2rem;
     text-decoration: none;
     padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    transition: background-color 0.3s; /* Add smooth transition */
   }
   
+  /* Remove underlines from links when hovered */
   .navbar a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  /* Style the active (selected) link */
+  .navbar a.active {
+    background-color: #ff6f00; /* Add a background color for the active link */
+  }
+  
+  /* Media Query for Mobile (Small Screen) */
+  @media (max-width: 768px) {
+    /* ... Existing styles for small screens ... */
   }
   
