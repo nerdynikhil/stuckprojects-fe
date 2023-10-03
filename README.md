@@ -1,14 +1,19 @@
-# StuckProjects.com - Find Help and Get Unstuck!
+# StuckProjects.com - Find Help and Get Unstuck! 
 
-![StuckProjects](https://domain.com/path/to/stuckprojects.png)
+## 🎉 We're participating in Hacktoberfest 2023! 🎉
 
-Welcome to StuckProjects.com, the quirky wonderland where developers come together to conquer the land of unfinished dreams! 🚀
+Interested in participating in Hacktoberfest? We extend a warm invitation! 
+
+Welcome to StuckProjects.com(yet to launch :P), the quirky wonderland where developers come together to conquer the land of unfinished dreams! 🚀
 
 ## What is StuckProjects.com?
 
 Have you ever found yourself staring at a half-baked project, stuck in a creative limbo with no idea how to proceed? Fear not, for StuckProjects.com is here to save the day! 🦸
 
 StuckProjects.com is a community-driven platform where developers can share their incomplete projects, discuss blockers, and seek help from fellow developers with the right expertise. Whether it's a personal side project or a work assignment that's got you tangled, this is the place to find support and inspiration! 💪
+
+![Screen Shot 2023-10-03 at 3 30 07 PM](https://github.com/nerdynikhil/stuckprojects-fe/assets/36399086/28bfc846-95ae-4d49-8798-0e94c28f63fe)
+
 
 ## Features
 
